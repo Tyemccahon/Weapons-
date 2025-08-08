@@ -1,0 +1,31 @@
+name: ClassWeaponsPlugin
+main: com.tye.classweapons.ClassWeaponsPlugin
+version: 1.2.0
+api-version: '1.21'
+commands:
+  givearcane:
+    description: Give the Mage's Arcane Staff
+    permission: classweapons.givearcane
+  giveguardian:
+    description: Give the Tank's Aegis Mace
+    permission: classweapons.giveguardian
+  givebloodaxe:
+    description: Give the Berserker's Bloodaxe
+    permission: classweapons.givebloodaxe
+  givewindbow:
+    description: Give the Archer's Wind Bow
+    permission: classweapons.givewindbow
+  giveholystaff:
+    description: Give the Healer's Holy Staff
+    permission: classweapons.giveholystaff
+permissions:
+  classweapons.givearcane:
+    default: op
+  classweapons.giveguardian:
+    default: op
+  classweapons.givebloodaxe:
+    default: op
+  classweapons.givewindbow:
+    default: op
+  classweapons.giveholystaff:
+    default: op
